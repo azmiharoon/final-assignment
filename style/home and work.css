@@ -1,0 +1,196 @@
+body {
+    min-width: 960px;
+}
+
+/* =banner */
+
+.banner {
+    background: url(../psd/dubaibg.jpg) no-repeat;
+    height: 231px;
+    width: 695px;
+    clear: both;
+}
+
+.callout {
+    background: black;
+    height: 230px;
+    width: 230px;
+    margin-left: 60px;
+}
+
+.banner h2 {
+    color: white;
+    font-size: 28px;
+    width: 400px;
+    line-height: 28px;
+    margin: 135px 0px 0px 8px;
+}
+
+/* =header */
+
+header {
+    overflow: hidden;
+}
+
+header h1 {
+    background: url(../psd/black+white.png) no-repeat;
+    margin: 10px 5px 20px;
+    width: 179px;
+    height: 29px;
+    text-indent: -9999px;
+    float: left;
+}
+
+/* =nav */
+
+nav {
+    float: right;
+    margin-top: 12px;
+}
+
+nav li {
+    display: inline;
+    float: right;
+}
+
+nav a {
+    text-transform: lowercase;
+}
+
+/* =main */
+
+.main {
+    margin: 15px 0px 15px 0px;
+    border-bottom: 1px solid #d1d1d1;
+    overflow: hidden;
+}
+
+/* =footer */
+
+footer {
+    clear: both;
+}
+
+/* =grid_overrides */
+
+.grid_6 {
+    margin: 0px 5px 0px;
+}
+
+/* misc */
+
+blockquote p {
+    font-size: 15px;
+    line-height: 20px;
+    font-style: italic;
+    color: #0e0e0e;
+}
+
+.container_24 {
+    margin-top: 8px;
+}
+
+p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #343434;
+}
+
+h1, h2 {
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 26px;
+    text-transform: lowercase;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d1d1d1;
+    line-height: 1em;
+}
+
+a {
+    color: #7e7e7e;
+    text-decoration: none;
+}
+
+a:hover, .selected{
+    color: black;
+}
+
+li {
+    margin-left: 24px;
+}
+
+.button {
+    font-size: 11px;
+    background: #242424;
+    color: white;
+    padding: 6px;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+}
+
+/* =blockquote */
+
+blockquote {
+    position: relative;
+}
+
+.main blockquote {
+    padding-left: 25px;
+}
+
+.main blockquote p:first-child:before, 
+.main blockquote p:last-child:after {
+    font-size: 35px;
+    color: #bfbfbf;
+    font-style: italic;    
+}
+
+.main blockquote p:first-child:before {
+    content: '❝' ;
+    position: absolute;
+    top: 5px;
+    left: -5px;
+
+}
+
+.main blockquote p:last-child:after {
+    content: '❞';
+    float: right;
+    position: absolute;
+    bottom: -4px;
+}
+
+/* =work */
+
+.work h2, h4 {
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.work h2 {
+    margin-bottom: 0px;
+}
+
+.work img {
+    margin-bottom: 10px;
+}
+
+.work h4 {
+    color: #787878;
+    line-height: 1.2em;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.work h1{
+    margin-bottom: 4px;
+}
